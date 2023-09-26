@@ -2,37 +2,47 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Uma página HTML de exemplo">
-  <meta name="keywords" content="HTML, exemplo, metadados">
-  <title>Minha Página HTML</title>
+  <title>Ponto Turístico em Recife</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <!-- Conteúdo da página aqui -->
-  <div id="conteudo">
-    <p>Este é um parágrafo dentro de uma divisão.</p>
-  </div>
-  <section>
-    <h2>Seção 1</h2>
-    <p>Conteúdo da Seção 1.</p>
-  </section>
-  <p>Isto é um parágrafo de texto.</p>
-  <p>Este é um texto <strong>importante</strong>.</p>
-  <img src="img/htmlcssjs-details.png" alt="Uma imagem de exemplo">
-  <figure>
-    <img src="img/image.png" alt="Outra imagem de exemplo">
-    <figcaption>Legenda da imagem</figcaption>
-  </figure>
-  <form action="/processar-dados" method="post">
-    <!-- Campos do formulário aqui -->
-    <input type="text" name="nome" placeholder="Seu nome">
-    <input type="email" name="email" placeholder="Seu e-mail">
-    <button type="submit">Enviar</button>
-  </form>
-  <input type="checkbox" name="interesses" value="esporte"> Esporte
-  <input type="radio" name="sexo" value="masculino"> Masculino
-5          
-  
+  <header>
+    <h1>Praia de Boa Viagem - Recife, PE</h1>
+    <img src="recife.jpg" alt="Praia de Boa Viagem">
+  </header>
 
+  <nav>
+    <ul>
+      <li><a href="#descricao">Descrição</a></li>
+      <li><a href="#como-chegar">Como Chegar</a></li>
+      <li><a href="#galeria">Galeria de Fotos</a></li>
+    </ul>
+  </nav>
+
+  <section id="descricao">
+    <h2>Descrição</h2>
+    <p>A Praia de Boa Viagem é uma das praias mais famosas de Recife, conhecida por suas águas mornas e piscinas naturais formadas pelos arrecifes de coral. É um local ideal para banhos de mar e para desfrutar do sol.</p>
+  </section>
+
+  <section id="como-chegar">
+    <h2>Como Chegar</h2>
+    <p>A Praia de Boa Viagem está localizada na zona sul de Recife. Você pode chegar lá de carro, ônibus ou táxi a partir do centro da cidade. O aeroporto internacional de Recife também está próximo, tornando o acesso fácil para os turistas.</p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <figure>
+      <img src="img/praia-de-boa-viagem-6db9_660x440.jpg" alt="Foto da Praia">
+      <figcaption>Vista panorâmica da Praia de Boa Viagem</figcaption>
+    </figure>
+    <figure>
+      <img src="img/maxresdefault.jpg" alt="Foto da Praia">
+      <figcaption>Pôr do sol na Praia de Boa Viagem</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Ponto Turístico Recife</p>
+  </footer>
 </body>
 </html>
